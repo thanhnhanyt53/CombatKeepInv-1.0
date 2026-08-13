@@ -1,0 +1,45 @@
+<repositories>
+
+    <repository>
+        <id>papermc</id>
+        <url>
+            https://repo.papermc.io/repository/maven-public/
+        </url>
+    </repository>
+
+    <repository>
+        <id>enginehub</id>
+        <url>
+            https://maven.enginehub.org/repo/
+        </url>
+    </repository>
+
+</repositories>
+
+<dependencies>
+
+    <!-- Paper -->
+    <dependency>
+        <groupId>io.papermc.paper</groupId>
+        <artifactId>paper-api</artifactId>
+        <version>26.1.2.build.69-stable</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- WorldGuard API -->
+    <dependency>
+        <groupId>com.sk89q.worldguard</groupId>
+        <artifactId>worldguard-bukkit</artifactId>
+        <version>7.0.16</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- PvPManager -->
+    <dependency>
+        <groupId>me.chancesd</groupId>
+        <artifactId>PvPManager</artifactId>
+        <version>4.1.71</version>
+        <scope>provided</scope>
+    </dependency>
+
+</dependencies>

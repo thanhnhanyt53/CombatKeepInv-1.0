@@ -1,0 +1,3 @@
+mvn -B dependency:get \
+  -Dartifact=io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT \
+  -DremoteRepositories=https://repo.papermc.io/repository/maven-public/
